@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+font-size: 1.6rem;
+}
+
+.wrapper.dark {
+font-family: 'Poppins', sans-serif;
+background-color: black;
+color: white;
+
+
+}
+
+.wrapper.light {
+background-image: url(S12Chall/background.png);
+font-family: 'Poppins', sans-serif;
+background-repeat: none;
+background-size: cover;
+
+
+}
+
+
+.logo {
+  /* float: left; */
+  height: 100px;
+  padding-left:1000px;
+  /* transform: translateX(3000000px); */
+  transform: translateY(10px);
+
+
+}
+
+nav ul {
+
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+}
+
+.wrapper.dark a {
+  color: white
+
+}
+nav ul li {
+  display:inline-block;
+}
+
+nav li {
+
+  padding: 0 4vw;
+
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+
+
+.nav {
+  font-size: 1.2rem;
+  padding: 10px;
+  display: flex;
+  margin-right: 1000px;
+  padding-top:25px;
+
+}
+
+a:hover {
+
+  color:rgb(233,196,230)
+}
+
+button {
+  transform: translateY(-8px);
+  padding-block: 20px;
+  padding-inline: 30px;
+  border-style: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to top right, rgb(145,172,233), rgb(231,129,204));
+  font-size: 1.2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 1.6rem;
+  transform: translateY(-20px)
+}
+
+.cart {
+height:60px;
+padding-right: 100px;
+transform: translateY(-20px)
+}
+
+.cart:hover {
+  cursor: pointer;
+}
+
+.col {
+  color: white;
+  padding-block: 20px;
+  padding-inline: 30px;
+  border-style: none;
+  border-radius: 5px;
+  margin-left: 200px;
+  background-image: linear-gradient(to top right, rgb(145,172,233), rgb(231,129,204));
+  font-size: 1.2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 1.6rem;
+}
+
+.col:hover {
+  cursor: pointer;
+
+}
+
+.margin {
+  margin-left: 200px
+}
+
+
+.imgRight {
+  float: right;
+  height: 700px;
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+
+
+.wrapper.dark .arrowL {
+  filter:invert(1);
+}
+.arrowL {
+  padding-top: 30px;
+  height: 50px;
+  padding-right: 30px;
+  margin-left: 300px;
+}
+
+.arrowR {
+  height: 50px;
+  
+}
+
+.arrowL:hover {
+
+  cursor:pointer;
+
+}
+
+.arrowR:hover {
+
+  cursor:pointer;
+
+}
+
+
+.wrapper.dark .socials {
+  filter: invert(1);
+}
+.socials {
+  padding-left: 20px;
+  transform: translateY(-230px);
+
+}
+
+
